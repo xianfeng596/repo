@@ -1,19 +1,39 @@
-Package: wiki.qaq.chromatic
-Version: 2.1-REL-1654050540
-Architecture: iphoneos-arm
+Package: ellekit
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit_1.1.2_iphoneos-arm64.deb
+Size: 338072
+MD5sum: e30ca0ec5fc2b966602a44c0a867c135
+SHA1: 9ccddc4ede9dc8b8107a77be3c62129fd3ab02c1
+SHA256: 4aa9e502d42c1e7cdb5a7a1a5ff63ba9b4bc2899b63a2f48d904d13c926179b2
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: wiki.qaq.chromatic.rootless
+Version: 2.1-REL-1700097956.e9752be
+Architecture: iphoneos-arm64
 Maintainer: Saily Team <support.0xa1@qaq.wiki>
-Pre-Depends: firmware (>= 13.0), dpkg, uikittools, apt
-Filename: debs/chromatic.rel.ci.1654050540.deb
-Size: 3499976
-MD5sum: 7ef3bf44dea792655a40bcd1caa64391
-SHA1: 6455925611207215728004d7466c4b78bd0d059e
-SHA256: dfcd2e58b5acb2a66fb73fdfebce6d620ef7de5c26a6a12bf6ef59ad21bd451c
+Pre-Depends: firmware (>= 13.0), dpkg, uikittools
+Conflicts: wiki.qaq.chromatic
+Filename: debs/chromatic.rel.ci.1700097956.e9752be.deb
+Size: 3529932
+MD5sum: 25bccf871ba1265677904e0afd46c71f
+SHA1: 37e935d1da55df37bdef8498ed62b0b1d6b81548
+SHA256: a5c78156c44a48ceb274f62ad204dc1b26408a251024d55efa586f7d4dbb2987
 Section: Applications
 Homepage: https://sailyteam.github.io/Saily/index.html
 Description: Modern. Fast. Beautiful.
 Author: Saily Team <support.0xa1@qaq.wiki>
 Depiction: https://sailyteam.github.io/Saily/index.html
 Icon: https://sailyteam.github.io/Saily/Resources/icon.png
-Name: Saily
+Name: Saily - rootless (zp)
 Website: https://sailyteam.github.io/Saily/index.html
 
